@@ -9,3 +9,5 @@ collections:
   pages:
     output: true
     permalink: /:path:output_ext
+
+theme: jekyll-theme-cayman

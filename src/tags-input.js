@@ -86,7 +86,7 @@ tagsInput.directive('tagsInput', function($timeout, $document, $window, $q, tags
         self.addText = function(text) {
             var tag = {};
             setTagText(tag, text);
-            return self.add(tag);
+            return self.add(text);
         };
 
         self.add = function(tag) {
